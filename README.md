@@ -2,6 +2,7 @@
 Alex Lea
 
 This repository stores my current(ish) tmux config for easy use.
+This repository is almost entirely copied from [this great video](https://www.youtube.com/watch?v=DzNmUNvnB04) by Dreams of Code.
 
 # Requirements
 It should go without saying that this config will only work if Tmux is installed.
