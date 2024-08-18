@@ -15,13 +15,10 @@ you to use one prefix or the other during setup.
 # Installation
 To load, clone the repository to your ```.config``` directory. 
 
-1. 
+1. Install this config file and tpm:
 ```bash
-$ mkdir ~/.config/tmux
-$ mkdir ~/.config/tmux/plugins
+$ git clone git@github.com:AlexLea444/tmux.git ~/.config/tmux
 $ git clone https://github.com/tmux-plugins/tpm ~/.config/tmux/plugins/tpm
-$ git clone git@github.com:AlexLea444/tmux ~/.config/tmux
 $ tmux
 ```
 2. Press ```prefix``` + ```I``` to fetch plugins.
-3. If necessary, use ```prefix``` + ```r``` to reload the TMUX environment.
