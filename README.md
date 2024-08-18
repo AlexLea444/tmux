@@ -9,12 +9,13 @@ View the official docs for an installation guide.
 
 This config requires Tmux Plugin Manager, ```tpm```, for installing and managing plugins.
 To install the plugins, use ```prefix``` + ```I```. Note that the default prefix is
-```<c-b>```, but this config changes it to ```<c-s>```, so order-of-operations might require
-you to use one prefix or the other during setup.
+```C-b``` (```ctrl``` + ```b```), but this config changes it to ```C-s```(```ctrl``` + ```s```). When following the Installation guide below,
+```C-s``` should be used as ```prefix```.
 
 # Installation
 To load, clone the repository to your ```.config``` directory. 
 
+0. Close out of any previous tmux sessions.
 1. Install this config file and tpm:
 ```bash
 $ git clone git@github.com:AlexLea444/tmux.git ~/.config/tmux
